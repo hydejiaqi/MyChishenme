@@ -37,9 +37,15 @@ class MainActivity : AppCompatActivity() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
 
         rv_pool.layoutManager = LinearLayoutManager(this)
+        addListData();
         rv_pool.adapter = poolAdapter
 
 
+
+    }
+
+    private fun addListData() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
 
     }
 

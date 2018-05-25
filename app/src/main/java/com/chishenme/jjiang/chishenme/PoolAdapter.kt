@@ -17,6 +17,9 @@ class PoolAdapter(val context: Context) : Adapter<RecyclerView.ViewHolder>() {
     }
 
 
+    fun addListItem(item : String){
+        this.poollist.add(item)
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
