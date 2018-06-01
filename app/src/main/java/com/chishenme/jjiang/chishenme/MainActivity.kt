@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun init() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-
+        val file = MyApp.prefs!!.fileName
         rv_pool.layoutManager = LinearLayoutManager(this)
         addListData();
         rv_pool.adapter = poolAdapter
