@@ -1,4 +1,4 @@
-package com.chishenme.jjiang.chishenme
+package com.chishenme.jjiang.chishenme.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView

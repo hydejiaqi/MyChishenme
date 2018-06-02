@@ -1,10 +1,9 @@
-package com.chishenme.jjiang.chishenme;
+package com.chishenme.jjiang.chishenme.util;
 
 import android.Manifest;
 
 
 import android.app.Dialog;
-import android.app.Fragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
@@ -13,6 +12,8 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AlertDialog;
 
 import android.widget.Toast;
+
+import com.chishenme.jjiang.chishenme.R;
 
 /**
  * Created by jjiang on 5/22/2018.

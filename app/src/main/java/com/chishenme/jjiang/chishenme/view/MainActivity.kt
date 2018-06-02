@@ -1,4 +1,4 @@
-package com.chishenme.jjiang.chishenme
+package com.chishenme.jjiang.chishenme.view
 
 import android.os.Bundle
 import android.support.design.widget.Snackbar
@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
+import com.chishenme.jjiang.chishenme.MyApp
+import com.chishenme.jjiang.chishenme.adapter.PoolAdapter
+import com.chishenme.jjiang.chishenme.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
@@ -36,16 +39,18 @@ class MainActivity : AppCompatActivity() {
     private fun init() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         val file = MyApp.prefs!!.fileName
+        if (file != null) addListData(file)
         rv_pool.layoutManager = LinearLayoutManager(this)
-        addListData();
         rv_pool.adapter = poolAdapter
 
 
 
     }
 
-    private fun addListData() {
+    private fun addListData(file: String) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
+
 
     }
 

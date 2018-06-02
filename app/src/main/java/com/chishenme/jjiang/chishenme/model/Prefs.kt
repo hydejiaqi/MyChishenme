@@ -1,4 +1,4 @@
-package com.chishenme.jjiang.chishenme
+package com.chishenme.jjiang.chishenme.model
 
 import android.content.Context
 import android.content.SharedPreferences
